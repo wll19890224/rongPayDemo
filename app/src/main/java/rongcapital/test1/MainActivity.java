@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                 args.putLong("amount", Long.parseLong(string2));    // 收款金额 单位分
                 args.putString("title", string3);                   // 订单标题
                 args.putString("operator", string4);                // 操作员
-                args.putString("packageName", getPackageName());    // 应用包名
+                args.putString("packageName", getPackageName());    // applicationId 应用标示
                 args.putString("tableId", string5);                 // 台位
                 args.putString("funCode", string6);                 // 支付功能码
                 args.putString("bizAndOrder", bizAndOrder);
