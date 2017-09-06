@@ -5,12 +5,12 @@ pos调用demo
 ```
 android:taskAffinity="com.rongcapital.pos"
 ```
-## 2.调用收款
+## 2.调用收款功能
 ```
 MainActivity => pay();
 ```
 
-## 3.打印小票
+## 3.打印功能
 ```
 MainActivity => print();
 ```
