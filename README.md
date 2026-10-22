@@ -5,7 +5,7 @@ pos调用demo
 ```
 android:taskAffinity="com.rongcapital.pos"
 ```
-## 2.调用收款功能
+## 2.调用收款功能更新
 ```
 MainActivity => pay();
 注意传入aplicationId：args.putString("packageName", applicationId);    // applicationId 应用标示
